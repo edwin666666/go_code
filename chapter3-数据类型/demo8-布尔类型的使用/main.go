@@ -11,5 +11,6 @@ func main() {
 	var b = false
 	fmt.Println("a=", a, "b=", b)
 	//bool类型占用存储空间是1个字节
-	fmt.Println("a和b占用的空间是", unsafe.Sizeof(a))
+	fmt.Println("
+	a和b占用的空间是", unsafe.Sizeof(a))
 }
